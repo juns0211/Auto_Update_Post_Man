@@ -17,7 +17,7 @@ import os
 import time
 import socket
 import urllib3
-from config import version
+from config import *
 
 class HeaderError(Exception):
     pass
@@ -317,7 +317,7 @@ class MainPage(tk.Frame):
         super().__init__()
         self.root = root
         self.title_font = ('Tahoma', 10, 'bold')
-        self.root.title(f'檢查更新程式 V{version}')
+        self.root.title(f'檢查更新程式 V{robot_version}')
          #設定畫面
         self.setup_base_setting()
         self.msg_windows_frame.pack(expand=1, fill='both', padx=2, pady=1)

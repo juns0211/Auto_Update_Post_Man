@@ -1,1 +1,1 @@
-version = '1.0.0'
+robot_version = '1.0.0'
